@@ -17,7 +17,9 @@ public class easy_buy {
 	
 	public static void login () {
 		
-        System.out.println("======Test login module=======");
+		
+		
+		System.out.println("======this is 1st branch=========");
 		
 		System.out.println("valid username valid password");
 		
@@ -27,11 +29,21 @@ public class easy_buy {
 		
 		System.out.println("invalid username invalid password");
 		
+		System.out.println("   ");
+	}
+	
+	public static void search() {
+		
+		System.out.println("=========this is 2nd branch=========");
+		
+		System.out.println("with input");
+		System.out.println("with-out input");
 	}
 	
 	public static void main(String[] args) {
 		browser();
 		login();
+		search();
 	}
 
 	
