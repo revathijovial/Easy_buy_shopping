@@ -38,12 +38,15 @@ public class easy_buy {
 		
 		System.out.println("with input");
 		System.out.println("with-out input");
+		
 	}
 	
 	public static void main(String[] args) {
 		browser();
 		login();
 		search();
+		
+		System.out.println("complted");
 	}
 
 	
